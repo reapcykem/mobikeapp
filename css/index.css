@@ -172,5 +172,13 @@ footer> p {
 @media screen and (max-width: 480px) {
     body{
         background-size: auto 812px;
-}
+    }
+   header {
+        margin-top: 20px;
+        font-size: 30px;
+   }
+   #btnl {
+        width: 260px;
+        height: 260px;
+   }
 }
