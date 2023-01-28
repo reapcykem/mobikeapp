@@ -327,7 +327,7 @@ function isReach(status) {
                 duckCheckCnt++;}
         });
 
-        if(status === "bear" && dogCheckCnt === 2 && duckCheckCnt === 0) {
+        if(status === "dog" && dogCheckCnt === 2 && duckCheckCnt === 0) {
             dogTurnEnd = "1";
         }
 
@@ -344,6 +344,6 @@ function isReach(status) {
             });
             return true;
         }
-
+        return dongTurnEnd;
     })
 }
