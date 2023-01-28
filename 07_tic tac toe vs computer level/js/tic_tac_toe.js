@@ -344,6 +344,6 @@ function isReach(status) {
             });
             return true;
         }
-        return dongTurnEnd;
     })
+    return dongTurnEnd;
 }
