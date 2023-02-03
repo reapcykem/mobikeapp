@@ -75,6 +75,34 @@ header {
 .js-hidden {
     display: none;
 }
+/* レベル設定エリア add-str */
+.level-container{
+    margin: 0px 100px 20px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.levl-box {
+    display: flex;
+    justify-content: space-around;
+}
+.level{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 24px;
+    user-select: none;
+    cursor: pointer;
+}
+.level-non-selected {
+    color: whitesmoke;
+    background: grey;
+    border: solid 2px #333;
+}
+.level-selected {
+    color: grey;
+    background: #ffd347;
+    border: solid 2px #333;
+}
+/* レベル設定エリア add-end */
 /*========================================================================== */
 /* class=squares-container                                                   */
 /*========================================================================== */
